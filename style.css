@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color: antiquewhite;
+    width: 100%;
 }
 
 h1 {
@@ -67,6 +68,10 @@ img {
 }
 
 @media (max-width: 980px) {
+
+    *{
+        width: auto;
+    }
 
     .container {
         display: grid;
